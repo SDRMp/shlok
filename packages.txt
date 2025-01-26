@@ -1,2 +1,14 @@
 libportaudio2
 ffmpeg
+ 
+libasound2-dev
+portaudio19-dev
+
+# For Python packages
+python3-dev
+swig
+libpulse-dev
+
+# For scientific computing
+libatlas-base-dev
+libopenblas-dev
