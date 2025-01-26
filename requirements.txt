@@ -1,6 +1,7 @@
 streamlit==1.33.0
 librosa==0.10.1
 numpy==1.26.4
-dtw-python==1.3.0
+dtw-python==1.3.0  # Critical for the DTW import
 scipy==1.13.0
-soundfile   
+soundfile==0.12.1   # Required for librosa WAV handling
+fastdtw==0.3.4
